@@ -22,17 +22,17 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:textColor="@color/white"
-            android:text="Welcome"
+            android:textColor="@color/black"
+            android:text="Pixy Nimbus"
             android:textSize="20dp"
-            android:fontFamily="@font/gothambook"
+            android:fontFamily="@font/gothambold"
             android:layout_height="wrap_content"/>
          <TextView
             android:layout_width="wrap_content"
-            android:textColor="@color/white"
-            android:text="SingIn"
+            android:textColor="@color/black"
+            android:text="Student Login"
              android:layout_marginTop="8dp"
-             android:fontFamily="@font/gothambold"
+             android:fontFamily="@font/gothambook"
              android:textSize="20dp"
             android:layout_height="wrap_content"/>
 
@@ -71,7 +71,7 @@
               <EditText
                   android:id="@+id/email"
                   android:layout_width="match_parent"
-                  android:hint="Enter Email"
+                  android:hint="Email"
                   android:background="@null"
                   android:paddingTop="10dp"
                   android:paddingLeft="8dp"
@@ -100,9 +100,10 @@
               <EditText
                   android:id="@+id/password"
                   android:layout_width="match_parent"
-                  android:hint="Enter password "
+                  android:hint="Password "
                   android:background="@null"
                   android:paddingTop="10dp"
+                  android:inputType="textPassword"
                   android:paddingLeft="8dp"
                   android:paddingBottom="10dp"
                   android:layout_height="wrap_content"/>
@@ -124,8 +125,8 @@
                   android:id="@+id/forgetpassword"
                   android:layout_width="wrap_content"
                   android:textSize="14dp"
-                  android:textColor="@color/black"
-                  android:text="Forget Password?"
+                  android:textColor="@color/color3"
+                  android:text="Forgot Password?"
                   android:layout_height="wrap_content"/>
 
 
@@ -175,10 +176,10 @@
               <TextView
                   android:id="@+id/collage"
                   android:layout_width="wrap_content"
-                  android:textSize="14dp"
-                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:textColor="@color/color3"
                   android:layout_marginTop="15dp"
-                  android:text="Login as collage admin "
+                  android:text="Login as Teacher"
                   android:layout_height="wrap_content"/>
 
 

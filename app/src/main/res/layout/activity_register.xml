@@ -54,9 +54,9 @@
                 android:layout_height="70dp"/>-->
             <TextView
                 android:layout_width="wrap_content"
-                android:textSize="10dp"
-                android:textColor="#80ffe8"
-                android:text="Uplad Image "
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:text="Upload Image "
                 android:layout_height="wrap_content"/>
 
 
@@ -75,15 +75,15 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:textColor="@color/white"
-                android:text="Welcome"
+                android:textColor="@color/black"
+                android:text="Pixy Nimbus"
                 android:textSize="14dp"
-                android:fontFamily="@font/gothambook"
+                android:fontFamily="@font/gothambold"
                 android:layout_height="wrap_content"/>
             <TextView
                 android:layout_width="wrap_content"
-                android:textColor="@color/white"
-                android:text="SingUp"
+                android:textColor="@color/black"
+                android:text="Student Registration"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/gothambold"
                 android:textSize="16dp"
@@ -129,7 +129,7 @@
             <EditText
                 android:id="@+id/username"
                 android:layout_width="match_parent"
-                android:hint="Enter Name"
+                android:hint="Name"
                 android:background="@null"
                 android:maxLines="1"
                 android:textSize="16dp"
@@ -190,7 +190,7 @@
             <EditText
                 android:id="@+id/useremail"
                 android:layout_width="match_parent"
-                android:hint="Enter Email"
+                android:hint="Email"
                 android:background="@null"
                 android:paddingTop="10dp"
                 android:imeOptions="actionNext"
@@ -218,7 +218,7 @@
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
-                android:hint="Enter Password"
+                android:hint="Password"
                 android:background="@null"
                 android:paddingTop="10dp"
                 android:textSize="16dp"
@@ -232,7 +232,7 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="Conform Password  "
+            android:text="Confirm Password  "
             android:layout_marginTop="5dp"
             android:textStyle="bold"
             android:textSize="14dp"
@@ -246,11 +246,12 @@
             <EditText
                 android:id="@+id/condormPassword"
                 android:layout_width="match_parent"
-                android:hint="Enter Conform Password"
+                android:hint="Confirm Password"
                 android:background="@null"
                 android:imeOptions="actionDone"
                 android:paddingTop="10dp"
                 android:textSize="16dp"
+                android:inputType="textPassword"
                 android:paddingLeft="8dp"
                 android:paddingBottom="10dp"
                 android:layout_height="wrap_content"/>
@@ -263,7 +264,7 @@
             android:layout_width="match_parent"
             android:background="@drawable/bg_loginbtn"
             android:textColor="@color/white"
-            android:text="Sign UP"
+            android:text="Sign up"
             android:layout_gravity="center"
             android:gravity="center"
             android:textSize="18dp"
@@ -288,7 +289,7 @@
                 android:layout_width="wrap_content"
                 android:textSize="16dp"
                 android:textColor="@color/black"
-                android:text="Allready have an account"
+                android:text="Already have an account"
                 android:layout_height="wrap_content"/>
             <TextView
                 android:layout_width="wrap_content"

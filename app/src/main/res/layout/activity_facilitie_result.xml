@@ -25,7 +25,7 @@
             android:textColor="@color/white"
             android:fontFamily="@font/gothambold"
             android:textSize="24dp"
-            android:text=" Student Result"
+            android:text=" Student Results"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>

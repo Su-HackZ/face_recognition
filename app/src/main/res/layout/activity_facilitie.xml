@@ -135,7 +135,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Add lecturer"
+                android:text="Add lecture"
                 android:textSize="18dp"
                 android:paddingRight="11dp"
                 android:paddingLeft="11dp"
@@ -168,7 +168,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Result"
+                android:text="Results"
                 android:textSize="18dp"
                 android:paddingRight="11dp"
                 android:paddingLeft="11dp"
