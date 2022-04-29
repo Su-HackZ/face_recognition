@@ -144,7 +144,7 @@
                      android:id="@+id/name"
                     android:textColor="@color/white"
                     android:textSize="14dp"
-                    tools:text="shubham dhhhhbfdfbjdb"
+                    tools:text=""
                     android:fontFamily="@font/gothammedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -154,7 +154,7 @@
                     android:textColor="@color/white"
                     android:textSize="14dp"
                       android:layout_marginTop="8dp"
-                    tools:text="1120201554585"
+                    tools:text=""
                     android:fontFamily="@font/gothammedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
