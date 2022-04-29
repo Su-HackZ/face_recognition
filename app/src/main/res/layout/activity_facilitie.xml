@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".facilitieActivity">
+
+
+
+<!--
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/edittextsearch"
+            android:layout_width="wrap_content"
+            android:hint="Serach Student Attendence"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/searchbtn"
+            android:layout_width="wrap_content"
+            android:text="search "
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="18dp"
+        android:paddingBottom="28dp"
+        android:background="@drawable/bg_corve_main"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gothambold"
+            android:textSize="18dp"
+            android:text="Search Student Attendence"
+            android:layout_height="wrap_content"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+           android:layout_marginRight="25dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/edittextsearch"
+                    android:layout_width="match_parent"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:gravity="start"
+                    android:textSize="16sp"
+                    android:hint="Enter Roll Number"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/searchbtn"
+                    android:layout_width="25dp"
+                    android:background="@drawable/ic_search"
+                    android:layout_height="25dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addlecturer"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner_bg"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Add lecturer"
+                android:textSize="18dp"
+                android:paddingRight="11dp"
+                android:paddingLeft="11dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/StudentResult"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_bg"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Result"
+                android:textSize="18dp"
+                android:paddingRight="11dp"
+                android:paddingLeft="11dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2.2"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+<!--
+    </LinearLayout>
+-->
+
+
+
+
+
+
+</LinearLayout>

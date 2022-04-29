@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "547754612054",
+    "project_id": "faceattendence-fa26e",
+    "storage_bucket": "faceattendence-fa26e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547754612054:android:402e94743af43b3e60b2f7",
+        "android_client_info": {
+          "package_name": "com.example.FaceAttendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547754612054-6gn7l31p44l16n2vq1mqs6711nfm7qvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.FaceAttendence",
+            "certificate_hash": "568a5ba67929cff06a25f978a1a97f9d8b40ab6d"
+          }
+        },
+        {
+          "client_id": "547754612054-0n5k8icbo2mfls42tdm164pusgtmngi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1vtf0IAGHy8apWFOt90CVYVVr3Gd1W0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547754612054-0n5k8icbo2mfls42tdm164pusgtmngi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547754612054:android:10fa148fe2165fe060b2f7",
+        "android_client_info": {
+          "package_name": "com.example.FaceAttendenceCLG"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547754612054-off576aoq2ggjnthm3lpqjj9u01bluv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.FaceAttendenceCLG",
+            "certificate_hash": "568a5ba67929cff06a25f978a1a97f9d8b40ab6d"
+          }
+        },
+        {
+          "client_id": "547754612054-0n5k8icbo2mfls42tdm164pusgtmngi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1vtf0IAGHy8apWFOt90CVYVVr3Gd1W0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547754612054-0n5k8icbo2mfls42tdm164pusgtmngi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547754612054:android:1409ae309767847060b2f7",
+        "android_client_info": {
+          "package_name": "com.example.faceattendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547754612054-0n5k8icbo2mfls42tdm164pusgtmngi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1vtf0IAGHy8apWFOt90CVYVVr3Gd1W0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547754612054-0n5k8icbo2mfls42tdm164pusgtmngi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

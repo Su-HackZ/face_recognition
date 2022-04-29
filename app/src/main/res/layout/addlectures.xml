@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="25dp"
+            android:background="@drawable/ic_baseline_cancel_24"
+            android:layout_marginRight="8dp"
+            android:layout_height="25dp"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimary"
+        android:text="Add Lectures "
+        android:paddingTop="15dp"
+        android:fontFamily="@font/gothambold"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="22dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/txt_curve"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:background="@null"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:layout_height="50dp"
+                android:hint="Enter Lecture Name"/>
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:visibility="invisible"
+                android:layout_marginBottom="6dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/txt_curve"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:paddingStart="10dp"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:imeOptions="actionDone"
+                android:hint="Lecture Timing"/>
+
+
+            <!--
+
+                        android:inputType="textPassword"
+            -->
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:visibility="invisible"
+                android:layout_marginBottom="6dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/btn_curve"
+            android:textSize="22dp"
+            android:layout_marginTop="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Add Lectures "
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

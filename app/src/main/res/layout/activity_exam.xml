@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".ExamActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:text="Exam"
+                android:textSize="20dp"
+                android:fontFamily="@font/gothambook"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/examtitle"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/gothambold"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:layout_marginRight="22dp"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageview"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_addimage"
+                app:civ_border_width="2dp"
+                android:layout_gravity="center"
+                app:civ_border_color="@color/white"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingLeft="22dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:paddingRight="22dp"
+        android:paddingBottom="18dp"
+        android:paddingTop="18dp"
+        android:background="@drawable/bg_cover_layout"
+        android:layout_height="wrap_content">
+
+
+
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="30dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/gothambold"
+                android:background="@drawable/bg_timer"
+                android:layout_height="30dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/view_gray"
+            android:layout_height="1dp"/>-->
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Question"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/gothammedium"
+            android:textColor="@color/black"
+            tools:text="dghvfgdhsvhdgsvchsdvcdhschxvhgsvc"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center">
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/optionsRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:layout_marginLeft="8dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Previous"
+                    android:textSize="15dp"
+                    android:visibility="gone"
+                    android:textColor="#ff4897d8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Previous" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/next"
+                    android:textSize="15dp"
+                    android:textColor="#ff4897d8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginRight="5dp"
+                    android:text="Next" />
+                <TextView
+                    android:id="@+id/Subimt"
+                    android:textSize="15dp"
+                    android:textColor="#ff4897d8"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="Submit" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".2"
+        android:orientation="vertical"
+        android:paddingLeft="18dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_height="0dp">
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
